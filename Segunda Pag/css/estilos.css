@@ -1,0 +1,75 @@
+.gastronomia{
+  background: url(../img/fondo.jpg);
+  background-size: cover;
+  width: auto;
+  height: auto;
+}
+.f1{
+  background-color: rgba(0, 25, 255, 0.25);
+}
+h5{
+  text-align: right;
+  margin-top: -15px;
+}
+.buscar{
+  border: solid black 1px;
+  border-radius: 10px;
+  background-color: white;
+  height: 35px;
+  float: right;
+
+}
+.button{
+  border-radius: 10px;
+}
+button{
+  height: 35px;
+
+}
+button i{
+  color: white;
+}
+ul{
+  list-style: none;
+}
+li a{
+  width: 90%;
+
+}
+.historia li a{
+  width: 90%;
+  height: 30px;
+  text-align: left;
+}
+.fecha{
+  color: red;
+  font-family: cursive;
+}
+textarea{
+  border-radius: 10px;
+  border: 1px black solid;
+}
+.comentar i{
+  font-size: 3rem;
+  color: black;
+}
+p{
+  margin-left: 5px;
+}
+.comentario{
+  min-height: 4rem;
+  border: solid white 1px;
+}
+.comentario img{
+  height: 3rem;
+  margin-left: 10px;
+}
+span{
+  color: blue;
+}
+
+@media (max-width: 1024px){
+  .nombre h3{
+    text-align: center;
+    font-size: 30px;
+  }

@@ -1,0 +1,64 @@
+.encabezado{
+  min-height: 4rem;
+}
+.grupos{
+  min-height: 50rem;
+}
+.bloque{
+  height: 25rem;
+  overflow: scroll;
+}
+.pad{
+  padding: 0px !important;
+}
+.publi{
+  min-height: 7rem;
+}
+.publi2{
+  min-height: 17rem;
+
+}
+.logo{
+  margin-top: 0.5rem;
+  height: 40px;
+  float: left;
+}
+.noticias{
+  min-height: 50rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+.responsive-img{
+  border: 0.6rem solid #2979ff;
+  border-radius: 5px;
+
+}
+.buscar-campo{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+.logo-buscar{
+  margin-bottom: 0px;
+}
+.botones{
+  margin-top: 1rem;
+}
+.collection a.collection-item{
+  color: blue;
+}
+.collection a.collection-item span{
+  color: red;
+}
+textarea{
+  background-color: white;
+  border: 1px solid black;
+}
+.card-content span{
+  color: white;
+}
+@media (max-width: 600px) {
+  .grupos{
+    padding: 0 !important;
+  }
